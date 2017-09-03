@@ -1,0 +1,15 @@
+{
+  "name": "nodepractic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server"
+  },
+  "author": "Haris Shahid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "fs": "0.0.1-security"
+  }
+}
