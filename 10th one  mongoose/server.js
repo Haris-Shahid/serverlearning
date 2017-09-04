@@ -13,7 +13,7 @@ var userSchema = mongoose.Schema({
 
 var userModel = mongoose.model("Userdetails", userSchema)
 
-var users = new userModel({ name: 'Shahid', email: "harisshahid01@gmail.com" });
+var users = new userModel({ name: 'shahid', email: "harisshahid01@gmail.com" });
 
 users.save(function (err, data) {
     if (!err) {
